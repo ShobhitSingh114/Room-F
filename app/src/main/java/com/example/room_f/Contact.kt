@@ -11,7 +11,7 @@ data class Contact(
     val id: Int = 0,
     val firstName: String,
     val lastName: String,
-    val phoneNumber: Int
+    val phoneNumber: String
 )
 //    @ColumnInfo(name = "first_name")
 //    val firstName: String,
